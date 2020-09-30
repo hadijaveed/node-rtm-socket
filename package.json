@@ -45,10 +45,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vincere-health/programma.git"
+    "url": "git+https://github.com/hadijaveed/node-rtm-socket.git"
   },
   "bugs": {
-    "url": "https://github.com/vincere-health/programma/issues"
+    "url": "https://github.com/hadijaveed/node-rtm-socket/issues"
   },
-  "homepage": "https://github.com/vincere-health/programma#readme"
+  "homepage": "https://github.com/hadijaveed/node-rtm-socket#readme"
 }
