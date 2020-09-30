@@ -1,10 +1,12 @@
 ## node-rtm-socket
-Node RTM Socket is a thin abstraction over Socket io and redis to use Sockets with multiple servers, processes and docker containers where Redis acts as a relay between them for message passing utilizing socket.io-redis. This client expose a simple API to subscribe event handlers without worrying too much about the implementation details. Look at example
+Node RTM Socket is a thin abstraction over Socket io and redis to use Sockets with multiple servers, processes and docker containers where Redis acts as a relay between them for message passing utilizing socket.io-redis. This client expose a simple API to subscribe event handlers without worrying too much about the implementation details. It works really well to achieve horizontal scalability.
+
+**If you are using Load Balancer. Make sure you have a sticky session enabled**
 
 
 ### Installation
 ```bash
-npm install @node-rtm-socket
+npm install node-rtm-socket
 ```
 
 ### Quick Setup
