@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Test Tool</title>
+  <link href='fonts.googleapis.com/css?family=Comfortaa:400,700'; rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+    }
+
+    .container {
+      padding: 0 200px;
+    }
+
+    .container #heading {
+      text-align: center;
+      font-size: 1.4rem;
+      letter-spacing: 0.4rem;
+    }
+
+    .container .input-text {
+      width: 300px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p id="heading">Chat Test</p>
+
+    <h4>Pick a User Name</h4>
+    <input type="text" id="userName">
+    <button id="joinRoomBtn">Join Room</button>
+
+    <br><br>
+    <div id="messageContainer" hidden>
+      <h4>Messages</h4>
+      <div id="chatAppend"></div>
+      <input type="text" id="chatMessage" class="input-text">
+      <button id="sendMessage">Send</button>
+      <div id="typingIndicator"></div>
+    </div>
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+  <script src="./client_script.js"></script>
+</body>
+</html>
